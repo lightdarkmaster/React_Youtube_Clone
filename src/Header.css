@@ -1,0 +1,144 @@
+*{
+    color: white;
+}
+.header{
+    position: relative;
+    background: #0E0E0F;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    z-index: 1;
+}
+.left-nav{
+    position: relative;
+    top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.ham-menu{
+    color: white; 
+    height: 100px;
+}
+.menu{
+    position: relative;
+    margin: auto;
+    padding-left: 20px;
+}
+.menu > img{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    height: 25px;
+    width: 100px;
+}
+.ph{
+    position: relative;
+    top: 0;
+    font-size: 5px;
+    color: grey;
+}
+.header__search{
+    position: relative;
+    display: flex;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.header__search > input{
+    background: black;
+    height: 36px;
+    width: 100%;
+    justify-content: center;
+    border-radius: 15px 0 0 15px;
+    padding-left: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.659);
+    color: white;
+}
+.header__search > input:hover{
+    border: 1px solid rgba(0, 0, 255, 0.522); 
+}
+.search__logo{
+    color: white;
+    width: 40px;
+    height: 35px;
+}
+.search__button{
+    border-radius: 0 15px 15px 0;
+    border: .4px solid rgba(128, 128, 128, 0.659);
+    background: #222222;
+    width: 80px;
+    border-left: 0;
+}
+.mic__button{
+    background: #222222;
+    position: relative;
+    left: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 100%;
+    width: 50px;
+    height: 40px;   
+    border: 0;
+}
+.mic__button:hover{
+    background: rgba(128, 128, 128, 0.6);
+}
+
+.right__side{
+    position: relative;
+    top: 5px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-right: 40px;
+}   
+.video__button{
+    background: #0E0E0F;
+    position: relative;
+    left: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;   
+    border: 0;
+}
+.video__button:hover{
+    background: rgba(128, 128, 128, 0.6);
+}
+.notification__button{
+    background: #0E0E0F;
+    position: relative;
+    left: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;   
+    border: 0;
+}
+.notification__button:hover{
+    background: rgba(128, 128, 128, 0.6);
+}
+.user__button{
+    background: #0E0E0F;
+    position: relative;
+    left: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;   
+    border: 0;  
+}
+.user__button:hover{
+    background: rgba(128, 128, 128, 0.6);
+}

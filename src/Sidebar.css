@@ -1,0 +1,61 @@
+
+.sidebar{
+    position: relative;
+    max-height: 1500px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 0;
+    z-index: 1;
+}
+.sidebar > ul{
+    overflow: hidden;
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+.sidebar > ul > li{
+    position: relative;
+    right: 30%;
+    display: flex;
+    gap:10%;
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.home__icon{
+    position: relative;
+    right: 20px;
+    text-align: center;
+    justify-content: center;
+}
+hr{
+    border: .2px solid rgba(128, 128, 128, 0.545);
+}
+.subs{
+    margin-left: 50px;;
+}
+.video{
+    margin-left: 0;
+}
+.watch__later{
+    margin-left: 45px;;
+}
+.sub__header{
+    margin: 0;
+    padding: 0;
+}
+.ch__logo{
+    margin-left: 30%;
+    width: 25px;
+    border-radius: 100%;
+}

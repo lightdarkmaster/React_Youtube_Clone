@@ -1,0 +1,32 @@
+.content{
+    color: white;
+    background: #0E0E0F;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.category{
+    position: relative;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.cat__button{
+    display: flex;
+    background: #222222;
+    margin: 10px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 600;  
+    overflow: hidden; 
+}
+.cat__button:hover{
+    background: #c2c2c270;
+}
+.video__row{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}

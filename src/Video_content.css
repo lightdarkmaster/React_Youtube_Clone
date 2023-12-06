@@ -1,0 +1,36 @@
+.video__content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.thumbnail{
+    width: 100%;
+    object-fit: contain;
+}
+.thumbnail >img{
+    width: 80%;
+    height:20%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.container{
+    position: relative;
+    display: flex;
+    width:100% ;
+    padding-top: 5px;
+    justify-content: space-evenly;
+}
+.creator__pic{
+    position: relative;
+    right: 10%;
+}
+.creator__pic >img{
+    border-radius: 100%;
+    width: 40px;
+}
+.video_title{
+    position: relative;
+    right: 20%;
+    margin-left: 10px;
+}
